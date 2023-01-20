@@ -21,10 +21,7 @@ const Header = () => {
           <li>Home</li>
           <li>User Guide</li>
           <li>My Meal</li>
-          <li>
-            Contact
-            <IonIcon name="person" />
-          </li>
+          <li>Contact</li>
           <span>
             <Button text="Log In"></Button>
           </span>

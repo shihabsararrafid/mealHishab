@@ -1,0 +1,25 @@
+.upperBanner{
+z-index: 10000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+height: auto;
+gap: 30px;
+padding: 50px;
+
+   
+}
+
+.upperBanner-text{
+    width: 50%;
+    text-align: justify;
+}
+.upperBanner-img{
+    width: 50%;
+}
+.upperBanner-img img{
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+}

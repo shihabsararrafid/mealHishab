@@ -24,7 +24,7 @@ align-items: center;
     font-weight: 600;
     cursor: pointer;
     transition: .3s;
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .right-part ul{
@@ -35,7 +35,7 @@ align-items: center;
     align-items: center;
 }
 .right-part ul li:hover,li:active{
-    color:#695CFE; border-bottom: 3px solid #695CFE;
+    color:#695CFE; border-bottom: 2px solid #00f;
 }
 .left-part p{
     padding-right: 100px;
