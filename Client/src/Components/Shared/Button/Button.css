@@ -1,0 +1,20 @@
+
+.btn{
+    background-color: #695CFE;
+    width:fit-content;
+    white-space: nowrap;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+   
+}
+.btn:hover{
+    color: #695CFE;
+    background: white; font-weight: 600;
+}
