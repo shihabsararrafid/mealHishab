@@ -15,6 +15,7 @@ align-items: center;
 .right-part{
     display: flex;
     align-items: center;
+     visibility: visible;
 }
 .right-part ul li{
     list-style: none;
@@ -59,6 +60,9 @@ text-shadow:
   0px
   var(--stroke-color);
 
+}
+.extra-btn{
+    width: 0;
 }
 /* for browsers that support spread, added in
 https://drafts.csswg.org/css-text-decor-4/#text-shadow-property
@@ -108,18 +112,41 @@ h1 {
 .extra-btn{
     visibility: hidden;
 }
+@media screen and (min-width:750px) {
+    .right-part{
+        visibility: visible !important;
+    }
+}
 @media screen and (max-width:1000px) {
     .sidebar{
         padding: 0px;
     }
 }
 @media  screen and (max-width:750px) {
+    
     .right-part ul {
-   visibility: hidden;
+   flex-direction: column;
+   position: absolute;
+   top: 63px;
+  right: 0;
+   gap: 4px;
+   padding: 10px 0px;
+border: 1px solid #695CFE;
+height: auto;
+border-radius: 5px;
+z-index: 10;
+   align-items: center;
+   background-color: white;
+   width: 180px;
+   box-shadow: #695CFE 0px 5px 15px;
   
+    }
+    .right-part ul li{
+        padding: 5px;
     }
     .extra-btn{
 position: absolute;
+width: auto;
 top: 20px;
 visibility: visible;
 right: 10px;
