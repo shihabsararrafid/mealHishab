@@ -1,0 +1,17 @@
+.banner{
+    color: white;
+    text-align: center;
+   min-height: 150px;
+   display: flex;
+   flex-direction: column;
+   gap: 0;
+   justify-content: center;
+   align-items: center}
+   .banner h1{
+    margin-bottom: 0;
+    text-transform: uppercase;
+   font-size: xx-large;
+   }
+   .banner p{
+    font-size: 1.2rem;
+   }

@@ -1,5 +1,5 @@
 .root{
-    --clr :#695CFE;
+    --clr :#2C74B3;
     --sidbarBG:#fff;
 }
 *{
@@ -21,6 +21,7 @@ align-items: center;
     list-style: none;
     padding: 0 10px;
     margin: 0 5px;
+    color: white;
     font-weight: 600;
     cursor: pointer;
     transition: .3s;
@@ -35,18 +36,19 @@ align-items: center;
     align-items: center;
 }
 .right-part ul li:hover,li:active{
-    color:#695CFE; border-bottom: 2px solid #00f;
+    color:#2C74B3; border-bottom: 2px solid #2C74B3;
 }
 .left-part p{
     padding-right: 100px;
+    color: white;
 font-weight: 600;
 font-size: 2rem;
 text-transform: uppercase;
 --x-offset: -0.0625em;
 --y-offset: 0.0625em;
 --stroke: 0.025em;
---background-color: white;
---stroke-color: #695CFE;
+--background-color: #2C74B3;
+--stroke-color: #2C74B3;
 
 text-shadow: 
   
@@ -106,7 +108,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    background-color: rgb(238, 233, 233);
+    background-color: #0A2647;
     border: 1px solid black;
 }
 .extra-btn{
@@ -131,18 +133,19 @@ h1 {
   right: 0;
    gap: 4px;
    padding: 10px 0px;
-border: 1px solid #695CFE;
+border: 1px solid #2C74B3;
 height: auto;
 border-radius: 5px;
 z-index: 10;
    align-items: center;
    background-color: white;
    width: 180px;
-   box-shadow: #695CFE 0px 5px 15px;
+   box-shadow: #2C74B3 0px 5px 15px;
   
     }
     .right-part ul li{
         padding: 5px;
+        color: #2C74B3;
     }
     .extra-btn{
 position: absolute;
@@ -171,9 +174,9 @@ margin: auto 0;
     font-size: 2rem;
     display: block;
     margin: 0 10px;
-    color: #695CFE;
+    color: #2C74B3;
     padding: 3px;
-    border: 1px solid #695CFE;
+    border: 1px solid #2C74B3;
     border-radius: 1px;
     cursor: pointer;
     background: white;

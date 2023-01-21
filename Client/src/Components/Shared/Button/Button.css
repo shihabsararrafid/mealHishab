@@ -1,6 +1,6 @@
 
 .btn{
-    background-color: #695CFE;
+    background-color: #2C74B3;
     width:fit-content;
     white-space: nowrap;
     box-sizing: border-box;
@@ -15,6 +15,23 @@
    
 }
 .btn:hover{
-    color: #695CFE;
+    color: #205295;
+    background: white; font-weight: 600;
+}
+.btn2{
+    background-color: #0A2647;
+    width:fit-content;
+    white-space: nowrap;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+}.btn2:hover{
+    color: #205295;
     background: white; font-weight: 600;
 }

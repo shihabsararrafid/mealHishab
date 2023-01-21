@@ -2,8 +2,9 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-image: url(./Images/bg.svg);
+  
 z-index: -1;
+background-color: #0A2647;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
